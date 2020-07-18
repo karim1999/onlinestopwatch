@@ -26,8 +26,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo|Harmattan|Tajawal" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/switcher.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="/public/css/switcher.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
     <link rel="stylesheet" href="https://nafezly.com/css/fontawsome.min.css">
 
 
@@ -162,7 +162,7 @@
     @yield('content')
 </div>
 <audio id="notification_sound">
-    <source src="{{asset('sounds/notifications.mp3')}}" type="audio/mpeg">
+    <source src="/public/sounds/notifications.mp3" type="audio/mpeg">
 </audio>
 
     <!--footer 1-->
@@ -184,8 +184,8 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
-    <script type="text/javascript" src="{{asset('js/jquery.switcher.min.js')}}"></script>
-    <script src="{{asset('js/main.js')}}"></script>
+    <script type="text/javascript" src="/public/js/jquery.switcher.min.js"></script>
+    <script src="/public/js/main.js"></script>
     <script type="text/javascript">
         if ( localStorage.getItem('mood')=="night") {
             var element = document.getElementById("inlineCheckbox1");
